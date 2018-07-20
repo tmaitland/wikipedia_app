@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://pre00.deviantart.net/74cf/th/pre/f/2009/051/b/9/white_background_matrix_by_jimeye.jpg');
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    min-width: 40vw;
+    max-width: 40vw;
+}
+
+.logo{
+    border: 3px solid black;
+    min-width: 30vw;
+    min-height: 40vh;
+    margin-bottom: 3vh;
+}
+
+.wikiAppTitle{
+    text-align: center; /*CC1*/
+    font-family: 'Libre Barcode 128 Text', cursive; /*CC2*/
+    font-size: 80px; /*CC3*/
+    text-shadow: 2px 2px 2px green; /*CC4*/
+}
+
+.search {
+    box-shadow: 2px 2px green; /*CC5*/
+    font-family: 'Nanum Myeongjo', serif; /*CC6*/
+    font-weight: bold; /*CC7*/
+    margin-left: 20px;
+}
+
+.random {
+    box-shadow: 2px 2px green; /*CC8*/
+    margin-left: 5px; /*CC9*/
+    font-family: 'Nanum Myeongjo', serif; /*CC10*/
+    font-weight: bold; /*CC12*/
+}
+
+.searchTerm {
+    box-shadow: 2px 2px 2px green; /*CC13*/
+    margin-right: 25px; /*CC14*/
+    font-family: 'Nanum Myeongjo', serif; /*CC15*/
+}
+
+.random:hover{
+    opacity: 0.5; /*CC16*/
+}
+
+.search:hover{
+    opacity: 0.5; /*CC17*/
+}
+
+.output {
+    list-style-type: none; /*CC18*/
+    font-family: 'Nanum Myeongjo', serif; /*CC19*/
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+}
